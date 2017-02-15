@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "codescheme/http-skeleton",
     "type": "library",
-    "description": ":package_description",
+    "description": "Testing http adaptors",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "codescheme",
+        "http-skeleton"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/codescheme/http-skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Codescheme",
+            "email": "codescheme@gmail.com",
+            "homepage": "https://github.com/codescheme",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "codescheme\\http-skeleton\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "codescheme\\http-skeleton\\": "tests"
         }
     },
     "scripts": {
