@@ -21,6 +21,6 @@ class SkeletonClass
      */
     public function echoPhrase($phrase)
     {
-        return $phrase;
+        return "hello " . $phrase;
     }
 }
